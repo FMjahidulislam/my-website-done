@@ -26,6 +26,7 @@ p {
 
 section {
     display: flex;
+    margin-bottom: 150px;
 
 }
 
@@ -51,4 +52,18 @@ section {
 .top-part {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.resume {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    padding: 5px 25px;
+    border-radius: 15px;
+}
+
+.exprience-area {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
