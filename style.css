@@ -11,11 +11,16 @@ h1 {
 
 h2 {
     color: red;
+    font-size: 35px;
+}
+
+h3 {
+    color: orange;
 }
 
 p {
     color: black;
-    text-align: justify;
+    text-align: left;
 
 }
 
@@ -24,15 +29,16 @@ p {
     font-size: 50px;
 }
 
-section {
+.container {
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 
 }
 
 .half-with {
     width: 50%;
     padding: 3%;
+
 
 }
 
@@ -62,8 +68,32 @@ section {
     border-radius: 15px;
 }
 
-.exprience-area {
+.secand-part {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-area {
+    margin-left: 10px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+.last-part {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 30px gold;
+    padding-left: 10px;
+    border-radius: 20px;
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
